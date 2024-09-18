@@ -1,22 +1,14 @@
 body {
     margin: 0;
-    padding: 0;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000000; /* Fondo negro */
-    font-family: 'Courier New', monospace; /* Fuente de respaldo */
+    height: 100vh;
+    font-family: monospace; /* Fuente digital */
+    background-color: #121212; /* Negro oscuro */
+    color: #fff; /* Blanco */
 }
 
 .reloj {
-    font-size: 200px; /* Tamaño de fuente aumentado */
-    color: #00BFFF; /* Azul claro */
-    text-shadow: 
-        0 0 20px #00BFFF,   /* Efecto de brillo */
-        0 0 40px #00BFFF, 
-        0 0 80px #00BFFF, 
-        0 0 160px #00BFFF;
-    letter-spacing: 20px; /* Espaciado entre dígitos */
-    font-family: 'Digital 7', monospace; /* Aplicar la fuente de 7 segmentos */
+    font-size: 10rem;
 }
